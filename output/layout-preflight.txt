@@ -1,0 +1,1 @@
+Preflight PASS: overlong SQL rejected — sql listing needs 992 x 59 pt, available 175 x 90 pt

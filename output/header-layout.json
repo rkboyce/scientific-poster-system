@@ -1,0 +1,172 @@
+{
+  "ok": true,
+  "errors": [],
+  "components": [
+    {
+      "key": "title",
+      "bounds": {
+        "x": 110,
+        "y": 25,
+        "w": 2372,
+        "h": 205
+      },
+      "measure": {
+        "width": 2013.0,
+        "height": 178.5,
+        "lines": 2,
+        "needed_height": 178.5,
+        "key": "title",
+        "pt": 65
+      },
+      "layer": "header"
+    },
+    {
+      "key": "authors",
+      "bounds": {
+        "x": 95,
+        "y": 244,
+        "w": 2402,
+        "h": 70
+      },
+      "measure": {
+        "width": 1188.75,
+        "height": 32.25,
+        "lines": 1,
+        "needed_height": 37.82,
+        "key": "authors",
+        "pt": 31
+      },
+      "layer": "header"
+    },
+    {
+      "key": "affiliations",
+      "bounds": {
+        "x": 110,
+        "y": 315,
+        "w": 2372,
+        "h": 85
+      },
+      "measure": {
+        "width": 762.0,
+        "height": 55.5,
+        "lines": 2,
+        "needed_height": 65.88,
+        "key": "affiliations",
+        "pt": 27
+      },
+      "layer": "header"
+    },
+    {
+      "key": "takeaway",
+      "bounds": {
+        "x": 77,
+        "y": 520,
+        "w": 738,
+        "h": 410
+      },
+      "measure": {
+        "width": 598.5,
+        "height": 243.0,
+        "lines": 4,
+        "needed_height": 243.0,
+        "key": "takeaway",
+        "pt": 44
+      },
+      "layer": "body"
+    },
+    {
+      "key": "figure-title",
+      "bounds": {
+        "x": 960,
+        "y": 510,
+        "w": 1500,
+        "h": 150
+      },
+      "measure": {
+        "width": 933.75,
+        "height": 79.5,
+        "lines": 1,
+        "needed_height": 79.5,
+        "key": "figure-title",
+        "pt": 58
+      },
+      "layer": "body"
+    },
+    {
+      "key": "explanation",
+      "bounds": {
+        "x": 960,
+        "y": 710,
+        "w": 1460,
+        "h": 190
+      },
+      "measure": {
+        "width": 731.25,
+        "height": 88.5,
+        "lines": 2,
+        "needed_height": 88.5,
+        "key": "explanation",
+        "pt": 32
+      },
+      "layer": "body"
+    },
+    {
+      "key": "card-title-0",
+      "bounds": {
+        "x": 980,
+        "y": 1065,
+        "w": 655,
+        "h": 90
+      },
+      "measure": {
+        "width": 348.0,
+        "height": 50.25,
+        "lines": 1,
+        "needed_height": 50.25,
+        "key": "card-title-0",
+        "pt": 36
+      },
+      "layer": "content"
+    },
+    {
+      "key": "card-title-1",
+      "bounds": {
+        "x": 1725,
+        "y": 1065,
+        "w": 655,
+        "h": 90
+      },
+      "measure": {
+        "width": 393.75,
+        "height": 50.25,
+        "lines": 1,
+        "needed_height": 50.25,
+        "key": "card-title-1",
+        "pt": 36
+      },
+      "layer": "content"
+    },
+    {
+      "key": "card-title-2",
+      "bounds": {
+        "x": 980,
+        "y": 1525,
+        "w": 655,
+        "h": 90
+      },
+      "measure": {
+        "width": 298.5,
+        "height": 50.25,
+        "lines": 1,
+        "needed_height": 50.25,
+        "key": "card-title-2",
+        "pt": 36
+      },
+      "layer": "content"
+    }
+  ],
+  "canvas": {
+    "width_pt": 2592,
+    "height_pt": 3456
+  }
+}
