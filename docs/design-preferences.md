@@ -1,6 +1,6 @@
 # Scientific Poster Design Preferences
 
-**Version:** 0.2 (draft)  
+**Version:** 0.3 (draft)  
 **Date:** 2026-11-02  
 **Reference designs:** The two final AMIA 2026 posters supplied in the Scientific Poster Sandbox project.
 
@@ -8,7 +8,12 @@
 
 - **Lead with the science.** State one defensible, memorable takeaway; make primary evidence prominent and methods concise but sufficient.
 - **Poster 2.0 is a guide, not a rigid template.** Support large takeaways, clear reading paths and evidence-first composition while adapting to qualitative, quantitative, system-design and usability studies.
-- **Maintain scientific fidelity.** Distinguish exploratory findings from confirmatory evidence, show denominators and uncertainty, preserve quotations, and make key limitations visible. If the study is qualitative  results, include representative quotes for each thematic domain and an overview of the sub-themes identified across qualitative data collection instances (interviews, observations, etc.). Quantitative epidemiologic studies will need at least a population overview table and some form of PRISMA-like flow chart showing inclusions/exclusions. Usability/system design studies should show prioritize informative screenshots and design artifacts. These are initial suggestions and each poster will require some focused planning. 
+- **Maintain scientific fidelity.** Distinguish exploratory findings from confirmatory evidence, show denominators and uncertainty, preserve quotations, and make key limitations visible. The following are **study-specific defaults to consider, not universal requirements**:
+  - **Qualitative studies:** Present primary themes, representative quotations, and an overview of subthemes by interview, observation, or other data source, when informative. Distinguish the number of files containing a code from the number of coded references.
+  - **Quantitative epidemiology:** Prioritize population/cohort characteristics, primary estimates with uncertainty, and appropriate comparisons. Show an inclusion/exclusion cohort flow when relevant; a PRISMA flowchart specifically serves evidence reviews and should not be assumed for every observational study.
+  - **System design/usability:** Prioritize authentic screenshots and suitable architecture, knowledge artifacts, and decision algorithms, alongside evaluation results. Distinguish feasibility, usability/satisfaction, efficiency, decision accuracy, and clinical effectiveness.
+  - Each poster requires focused planning based on the scientific contribution and the venue.
+
 - **Readability is a constraint.** Do not automatically reduce font size to force content into fixed boxes; edit text or change geometry instead.
 - **Use space deliberately.** Keep related content together, avoid collisions and accidental whitespace, and preserve clean alignment.
 - **Prefer reproducible vector assets.** Use SVG as the primary source, PDF as the print deliverable, and editable scripts for charts and diagrams.
@@ -22,7 +27,7 @@ Their content differs by study:
 - The qualitative interview poster emphasizes three theme cards, verbatim quotations, and coded-subcategory counts.
 - The CBD-CDS system poster emphasizes authentic SMART-on-FHIR screenshots, clinical decision algorithms, and cautious presentation of formative usability measures.
 
-Future poster requirements might change based on venue. Poster formatting guidelines for the venue over-rule this documents defaults. 
+Poster formatting requirements imposed by the venue override this document's defaults. 
 
 **Do not copy visible flaws in the reference PDFs** (crowded author text, awkward wrapping or clipped quotations). They provide design direction, not pixel-perfect specifications.
 
@@ -35,13 +40,12 @@ Future poster requirements might change based on venue. Poster formatting guidel
 - Allocate space according to figure complexity and readable type sizes; do not mandate equally sized decision trees or screenshots.
 - Place figure captions close to figures and avoid duplicating captions as body prose.
 - Leave secondary references and branding in the footer without making them illegible.
-- Institutional and organizational logos are often reusable and should be retained in this project for selection and configuration per poster. Important logos to retain for selective reuse are: University of Pittsburgh, University of Texas Southwestern, US Veteran's Administration, the VINCI program in the US Veteran's administration.
-- Nearly every poster will require funding acknowledgement, ensure that it is asked for during development
-- Most posters involve a study with some form of IRB approval needed, often with an exempt ruling. Ensure that it is asked for during development.
+- Maintain a versioned, **selectable** library of institutional and organizational logos, potentially including University of Pittsburgh, UT Southwestern, the U.S. Department of Veterans Affairs (VA), and the VA Informatics and Computing Infrastructure (VINCI). Record approved source, reuse permissions, current branding guidelines, and light/dark variants; inclusion in the library does not imply authorization for a particular poster.
+- During project intake, ask about applicable funding/grant acknowledgments, institutional branding, IRB approval, exemption, or other determination (if applicable), and contact/QR destination. Do not assume every study has an IRB determination or grant.
 
 ## 4. Typography
 
-Preferred families: **Open Sans** or **Fjalla One** for large headings; **Karla**, **Franklin Gothic FS**, or **Lato** for body copy; **Futura** as an optional alternative. Use installed fonts and record fallbacks. Never distribute proprietary font files. Use LaTeX-derived vector output for mathematical expressions when useful. Any code listings should be in monospaced font using language-specific font lock/formatting. 
+Preferred families: **Open Sans** or **Fjalla One** for large headings; **Karla**, **Franklin Gothic FS**, or **Lato** for body copy; **Futura** as an optional alternative. Use installed fonts and record fallbacks. Never distribute proprietary font files. Use LaTeX-derived vector output for mathematical expressions when useful. Code listings should use a monospaced font and language-appropriate syntax highlighting; see Section 8. 
 
 Initial 36 × 48-inch targets (subject to design approval, not measurements taken from the final posters):
 
@@ -68,7 +72,7 @@ Set per-poster minimum text sizes. Measure text with the actual font and rendere
 - Sand: `#EADDC5`
 - White or warm off-white paper
 
-Future posters will benefit from reuse of the approved style of University of Texas Southwestern if one can be found. 
+Institutional palette presets, including a potential UT Southwestern theme, should be based on current authoritative brand guidance and applied only when appropriate to the poster's purpose. 
 
 Expose semantic tokens such as `primary`, `accent`, `surface`, `surface_muted`, `text`, `text_inverse` and `rule` in TOML/YAML configuration. Maintain sufficient contrast and avoid encoding categorical differences in color alone.
 
@@ -96,7 +100,30 @@ Components should expose position, content and dimensions while reporting measur
 - When coding qualitative data, distinguish **number of interview files** from **number of coded references**.
 - Deliver reproducible source files alongside SVG figure assets.
 
-## 8. Production workflow
+## 8. Code listings and technical text
+
+Use code when it contributes to the scientific argument: a computational method, analysis decision, API interaction, implementation pattern, or algorithm. Avoid decorative listings or oversized excerpts.
+
+**Authoring and generation**
+- Treat a UTF-8 source file or fenced Markdown block with an explicit language identifier (Python, R, SQL, shell, etc.) as the source of truth.
+- Start with **Pygments** syntax highlighting and its SVG formatter to produce selectable vector text; verify its sizing and rendering in Inkscape and exported PDF before adopting it for production.
+- Use installed monospaced fonts such as DejaVu Sans Mono or Liberation Mono, with per-poster minimum font sizes. Do not distribute restricted fonts.
+- Optionally use **markdown-it-py** when broader Markdown parsing is actually needed. Render parsed content into native SVG components; avoid HTML `foreignObject` or browser rendering as a required production dependency.
+- Retain **LaTeX** for equations, mathematical notation, and pseudocode where it communicates more clearly than source code.
+
+**Visual and content constraints**
+- Prefer short, meaningful excerpts (typically 5–15 lines) with an optional language/file label; point to complete, versioned code by a link or QR when useful.
+- Coordinate syntax token colors with the poster palette, maintain contrast, and do not rely on syntax color alone.
+- Preserve exact indentation, operators, punctuation, line breaks, and Unicode. Never auto-wrap code; shorten the excerpt or mark any omitted lines explicitly.
+- Show line numbers only when useful. Highlight a few crucial lines rather than including decorative IDE chrome.
+- Do not silently shrink or rasterize code to fit. Keep code selectable in SVG where practicable.
+- Check public excerpts for secrets, tokens, PHI, sensitive endpoints, and intellectual-property or licensing restrictions.
+
+**Planned reusable component:** `CodeListing(source, language, font_family, font_size, palette, line_numbers, highlight_lines, title, caption, width, height)` should return a standalone SVG and measured bounds/overflow diagnostics. If the Pygments SVG formatter is insufficient for precise dimensions, build a token-to-SVG renderer using Pango font measurement.
+
+**Preflight:** Validate declared language, syntax coloring, indentation and line integrity, minimum type size, no wrapping/clipping, print-scale readability, and publication safety.
+
+## 9. Production workflow
 
 1. Review manuscripts, abstracts, scientific figures, conference instructions and institutional requirements.
 2. Identify scientific takeaway, evidence priorities, claims/limitations; ask a few consequential questions.
@@ -108,28 +135,30 @@ Components should expose position, content and dimensions while reporting measur
 8. Deliver SVG, PDF, preview PNG, scripts, configuration, uv dependency lock and a short QA report.
 9. Compare the user-edited final poster with the draft and incorporate validated improvements.
 
-## 9. Technical environment
+## 10. Technical environment
 
 - **OS:** Ubuntu 22.04 or newer
 - **Python:** managed using **uv**; commit `pyproject.toml` and generated `uv.lock`
 - **Primary authoring:** Python + `svgwrite`, revisiting alternatives if layout complexity requires it
 - **Typography:** evaluate Pango for accurate font measurements
 - **Other tools:** Graphviz for decision logic, Matplotlib for plotted graphics, LaTeX for equations, Inkscape for editing/export
+- **Code-listing tools:** Start with `uv add pygments` after the SVG rendering experiment; add `markdown-it-py` only when broader Markdown parsing is needed. Commit tested `pyproject.toml` and `uv.lock` changes; avoid making a browser-based Markdown-to-image pipeline mandatory.
 - **Outputs:** SVG source and print PDF; ODG/PPTX only when needed
 - Keep paths portable, source assets versioned and content metadata separate from drawing code.
 
-## 10. Preflight / acceptance criteria
+## 11. Preflight / acceptance criteria
 
-Automated where feasible: correct physical dimensions, text and asset bounds inside canvas, no unintended overlap, min font compliance, resolved assets, raster effective PPI, valid QR target, and correct PDF page box.
+Automated where feasible: correct physical dimensions, text and asset bounds inside canvas, no unintended overlap, min font compliance, resolved assets, raster effective PPI, valid QR target, correct PDF page box, and code-listing integrity (indentation, source fidelity, syntax/language choice, and clipping).
 
-Human-reviewed: title/affiliations centered and readable, main takeaway visible at distance, evidence hierarchy unmistakable, diagrams/quotes legible, no awkward wrapping or large accidental voids, factual claims faithful to manuscript, and SVG/PDF visual equivalence.
+Human-reviewed: title/affiliations centered and readable, main takeaway visible at distance, evidence hierarchy unmistakable, diagrams/quotes/code legible at print size, no awkward wrapping or large accidental voids, factual claims faithful to manuscript, SVG/PDF visual equivalence, and absence of secrets/PHI or unlicensed code excerpts.
 
-## 11. Open questions
+## 12. Open questions
 
 - Measure recurring geometry and typography more precisely from the final posters without reproducing their defects.
 - Agree on font availability/fallbacks for the user's Ubuntu installation.
 - Decide initial support for landscape and unusual conference dimensions.
 - Define hard font minima and a consistent print-proof method.
 - Add a reusable preflight CLI plus SVG/PDF comparison tests.
+- Prototype a `CodeListing` with Python, R and SQL examples; compare its Inkscape SVG and exported PDF at realistic poster sizes before promoting it to production.
 
 *This is a living design preference specification, not an inflexible branding standard.*
