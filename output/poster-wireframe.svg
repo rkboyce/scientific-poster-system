@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="48in" version="1.1" viewBox="0 0 2592 3456" width="36in">
+  <defs/>
+  <rect fill="#F9F8F5" height="3456" rx="0" ry="0" width="2592" x="0" y="0"/>
+  <rect fill="#16384C" height="425" rx="0" ry="0" width="2592" x="0" y="0"/>
+  <text fill="#FFFFFF" font-family="Open Sans" font-size="66" font-weight="bold" text-anchor="middle" x="1296" y="132">Working title of the scientific poster</text>
+  <text fill="#FFFFFF" font-family="Open Sans" font-size="66" font-weight="bold" text-anchor="middle" x="1296" y="225">Second line if needed</text>
+  <text fill="#FFFFFF" font-family="Karla" font-size="31" font-weight="normal" text-anchor="middle" x="1296" y="332.0">Authors | Affiliations</text>
+  <rect fill="#16384C" height="2510" rx="0" ry="0" width="760" x="36" y="470"/>
+  <rect fill="#6AC181" height="2510" rx="0" ry="0" width="12" x="36" y="470"/>
+  <text fill="#FFFFFF" font-family="Open Sans" font-size="62" font-weight="bold" text-anchor="start" x="96" y="588">A memorable result</text>
+  <text fill="#FFFFFF" font-family="Open Sans" font-size="62" font-weight="bold" text-anchor="start" x="96" y="672">or conclusion that</text>
+  <text fill="#FFFFFF" font-family="Open Sans" font-size="62" font-weight="bold" text-anchor="start" x="96" y="756">can be read from</text>
+  <text fill="#FFFFFF" font-family="Open Sans" font-size="62" font-weight="bold" text-anchor="start" x="96" y="840">a distance</text>
+  <rect fill="#6AC181" height="5" rx="0" ry="0" width="640" x="96" y="942"/>
+  <text fill="#6AC181" font-family="Open Sans" font-size="27" font-weight="bold" text-anchor="start" x="96" y="1024.0">BACKGROUND</text>
+  <text fill="#FFFFFF" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="96" y="1095">Short context line one</text>
+  <text fill="#FFFFFF" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="96" y="1143">Short context line two</text>
+  <text fill="#6AC181" font-family="Open Sans" font-size="27" font-weight="bold" text-anchor="start" x="96" y="1370.0">OBJECTIVE</text>
+  <text fill="#FFFFFF" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="96" y="1441">The study objective goes</text>
+  <text fill="#FFFFFF" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="96" y="1489">here in readable prose</text>
+  <text fill="#16384C" font-family="Open Sans" font-size="40" font-weight="bold" text-anchor="start" x="838" y="550.0">Primary scientific finding</text>
+  <rect fill="#6AC181" height="3" rx="0" ry="0" width="1064" x="838" y="574"/>
+  <text fill="#203645" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="838" y="613.0">Large figure or graphic goes here.</text>
+  <rect fill="#FFFFFF" height="1000" rx="15" ry="15" width="1062" x="840" y="760"/>
+  <rect fill="#EADDC5" height="900" rx="12" ry="12" width="982" x="880" y="805"/>
+  <text fill="#16384C" font-family="Open Sans" font-size="39" font-weight="bold" text-anchor="middle" x="1370" y="1220.0">VECTOR FIGURE / CHART</text>
+  <text fill="#16384C" font-family="Open Sans" font-size="40" font-weight="bold" text-anchor="start" x="838" y="1922.0">Supporting evidence</text>
+  <rect fill="#6AC181" height="3" rx="0" ry="0" width="1064" x="838" y="1946"/>
+  <text fill="#203645" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="838" y="1985.0">Evidence is presented in this</text>
+  <text fill="#203645" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="838" y="2024.37">second content block.</text>
+  <rect fill="#FFFFFF" height="800" rx="15" ry="15" width="1064" x="838" y="2100"/>
+  <text fill="#16384C" font-family="Open Sans" font-size="40" font-weight="bold" text-anchor="start" x="1948" y="550.0">Methods</text>
+  <rect fill="#6AC181" height="3" rx="0" ry="0" width="590" x="1948" y="574"/>
+  <text fill="#203645" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="1948" y="613.0">Brief study design</text>
+  <text fill="#203645" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="1948" y="652.37">and sample details.</text>
+  <rect fill="#EADDC5" height="780" rx="12" ry="12" width="590" x="1948" y="848"/>
+  <text fill="#16384C" font-family="Open Sans" font-size="30" font-weight="bold" text-anchor="start" x="1980" y="931.0">METHODS / WORKFLOW</text>
+  <text fill="#16384C" font-family="Open Sans" font-size="40" font-weight="bold" text-anchor="start" x="1948" y="1800.0">Additional results</text>
+  <rect fill="#6AC181" height="3" rx="0" ry="0" width="590" x="1948" y="1824"/>
+  <text fill="#203645" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="1948" y="1863.0">Interpretation or</text>
+  <text fill="#203645" font-family="Karla" font-size="31" font-weight="normal" text-anchor="start" x="1948" y="1902.37">supporting figure.</text>
+  <rect fill="#FFFFFF" height="810" rx="12" ry="12" width="590" x="1948" y="2090"/>
+  <rect fill="#EADDC5" height="185" rx="0" ry="0" width="2520" x="36" y="3008"/>
+  <text fill="#16384C" font-family="Open Sans" font-size="34" font-weight="bold" text-anchor="start" x="76" y="3080.0">Interpretation and next steps</text>
+  <text fill="#203645" font-family="Karla" font-size="29" font-weight="normal" text-anchor="start" x="76" y="3138.0">A concise statement of implications, limitations, and future work.</text>
+  <text fill="#686758" font-family="Karla" font-size="23" font-weight="normal" text-anchor="start" x="70" y="3300.0">Logo | Funding</text>
+  <text fill="#686758" font-family="Karla" font-size="23" font-weight="normal" text-anchor="end" x="2520" y="3300.0">References | QR</text>
+</svg>
