@@ -1,0 +1,20 @@
+{
+  "source": {
+    "manuscript": "Private local report supplied to the build environment; SHA-256 recorded in BUILD.md; not committed.",
+    "design_brief": "DESIGN_BRIEF.md",
+    "status": "Hypothetical symposium poster, not a real submitted conference poster."
+  },
+  "central_takeaway": "Study Agent offers reusable, governed AI support for OHDSI research workflows, combining service-based ACP/MCP coordination with deterministic validation while researchers remain accountable for decisions.",
+  "flow_excerpt": [
+    "phenotype_recommendation",
+    "phenotype_make_computable",
+    "concept_sets_review",
+    "cohort_critique_general_design",
+    "workflow_context_dialogue"
+  ],
+  "unverified_statements": [
+    "Coding agents using Skills.md are researcher-provided architectural context; their exact Study Agent implementation is not verified in this poster build.",
+    "Specific OHDSI community deterministic package-to-flow bindings are an architectural opportunity, not asserted as implemented here.",
+    "No public approved application screenshot was supplied; the poster includes a labeled placeholder only."
+  ]
+}

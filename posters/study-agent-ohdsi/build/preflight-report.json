@@ -1,0 +1,943 @@
+{
+  "ok": true,
+  "errors": [],
+  "component_count": 66,
+  "canvas": {
+    "width_pt": 3456,
+    "height_pt": 2592,
+    "width_in": 48.0,
+    "height_in": 36.0
+  },
+  "text": [
+    {
+      "key": "title",
+      "pt": 72,
+      "minimum_pt": 68,
+      "bounds": {
+        "x": 120,
+        "y": 45,
+        "w": 3216,
+        "h": 105
+      },
+      "lines": 1,
+      "measured": {
+        "width": 1650.0,
+        "height": 99.0,
+        "lines": 1
+      }
+    },
+    {
+      "key": "subtitle",
+      "pt": 50,
+      "minimum_pt": 46,
+      "bounds": {
+        "x": 120,
+        "y": 158,
+        "w": 3216,
+        "h": 76
+      },
+      "lines": 1,
+      "measured": {
+        "width": 1759.5,
+        "height": 69.0,
+        "lines": 1
+      }
+    },
+    {
+      "key": "authors",
+      "pt": 24,
+      "minimum_pt": 22,
+      "bounds": {
+        "x": 120,
+        "y": 267,
+        "w": 3216,
+        "h": 43
+      },
+      "lines": 1,
+      "measured": {
+        "width": 1163.25,
+        "height": 33.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "status",
+      "pt": 18,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 120,
+        "y": 322,
+        "w": 3216,
+        "h": 30
+      },
+      "lines": 1,
+      "measured": {
+        "width": 1067.25,
+        "height": 25.5,
+        "lines": 1
+      }
+    },
+    {
+      "key": "takeaway-heading",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 120,
+        "y": 456,
+        "w": 800,
+        "h": 35
+      },
+      "lines": 1,
+      "measured": {
+        "width": 219.75,
+        "height": 30.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "takeaway-copy",
+      "pt": 43,
+      "minimum_pt": 40,
+      "bounds": {
+        "x": 120,
+        "y": 505,
+        "w": 3180,
+        "h": 130
+      },
+      "lines": 2,
+      "measured": {
+        "width": 2112.0,
+        "height": 118.5,
+        "lines": 2
+      }
+    },
+    {
+      "key": "gov-heading",
+      "pt": 30,
+      "minimum_pt": 28,
+      "bounds": {
+        "x": 112,
+        "y": 752,
+        "w": 730,
+        "h": 48
+      },
+      "lines": 1,
+      "measured": {
+        "width": 405.0,
+        "height": 41.25,
+        "lines": 1
+      }
+    },
+    {
+      "key": "gov-context",
+      "pt": 25,
+      "minimum_pt": 23,
+      "bounds": {
+        "x": 112,
+        "y": 848,
+        "w": 730,
+        "h": 176
+      },
+      "lines": 4,
+      "measured": {
+        "width": 513.75,
+        "height": 138.0,
+        "lines": 4
+      }
+    },
+    {
+      "key": "gov-control-heading",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 112,
+        "y": 1072,
+        "w": 730,
+        "h": 34
+      },
+      "lines": 1,
+      "measured": {
+        "width": 264.75,
+        "height": 30.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "gov-control",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 112,
+        "y": 1122,
+        "w": 730,
+        "h": 225
+      },
+      "lines": 5,
+      "measured": {
+        "width": 499.5,
+        "height": 153.75,
+        "lines": 5
+      }
+    },
+    {
+      "key": "gov-maturity-heading",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 112,
+        "y": 1425,
+        "w": 730,
+        "h": 34
+      },
+      "lines": 1,
+      "measured": {
+        "width": 243.75,
+        "height": 30.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "gov-maturity",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 112,
+        "y": 1477,
+        "w": 730,
+        "h": 195
+      },
+      "lines": 5,
+      "measured": {
+        "width": 462.75,
+        "height": 153.75,
+        "lines": 5
+      }
+    },
+    {
+      "key": "gov-scope-heading",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 112,
+        "y": 1775,
+        "w": 730,
+        "h": 34
+      },
+      "lines": 1,
+      "measured": {
+        "width": 180.0,
+        "height": 30.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "gov-scope",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 112,
+        "y": 1825,
+        "w": 730,
+        "h": 120
+      },
+      "lines": 3,
+      "measured": {
+        "width": 528.75,
+        "height": 92.25,
+        "lines": 3
+      }
+    },
+    {
+      "key": "architecture-heading",
+      "pt": 30,
+      "minimum_pt": 28,
+      "bounds": {
+        "x": 958,
+        "y": 752,
+        "w": 1510,
+        "h": 48
+      },
+      "lines": 1,
+      "measured": {
+        "width": 662.25,
+        "height": 41.25,
+        "lines": 1
+      }
+    },
+    {
+      "key": "architecture-kicker",
+      "pt": 20,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 958,
+        "y": 815,
+        "w": 1510,
+        "h": 35
+      },
+      "lines": 1,
+      "measured": {
+        "width": 957.75,
+        "height": 27.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "client-r-label",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 978,
+        "y": 912,
+        "w": 426,
+        "h": 37
+      },
+      "lines": 1,
+      "measured": {
+        "width": 209.25,
+        "height": 30.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "client-r-detail",
+      "pt": 18,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 978,
+        "y": 964,
+        "w": 426,
+        "h": 27
+      },
+      "lines": 1,
+      "measured": {
+        "width": 255.0,
+        "height": 25.5,
+        "lines": 1
+      }
+    },
+    {
+      "key": "client-atlas-label",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 1494,
+        "y": 912,
+        "w": 426,
+        "h": 37
+      },
+      "lines": 1,
+      "measured": {
+        "width": 174.0,
+        "height": 30.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "client-atlas-detail",
+      "pt": 18,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 1494,
+        "y": 964,
+        "w": 426,
+        "h": 27
+      },
+      "lines": 1,
+      "measured": {
+        "width": 185.25,
+        "height": 25.5,
+        "lines": 1
+      }
+    },
+    {
+      "key": "client-coding-label",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 2010,
+        "y": 912,
+        "w": 426,
+        "h": 37
+      },
+      "lines": 1,
+      "measured": {
+        "width": 279.75,
+        "height": 30.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "client-coding-detail",
+      "pt": 18,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 2010,
+        "y": 964,
+        "w": 426,
+        "h": 27
+      },
+      "lines": 1,
+      "measured": {
+        "width": 248.25,
+        "height": 25.5,
+        "lines": 1
+      }
+    },
+    {
+      "key": "acp-label",
+      "pt": 30,
+      "minimum_pt": 28,
+      "bounds": {
+        "x": 1195,
+        "y": 1170,
+        "w": 1036,
+        "h": 44
+      },
+      "lines": 1,
+      "measured": {
+        "width": 173.25,
+        "height": 41.25,
+        "lines": 1
+      }
+    },
+    {
+      "key": "acp-detail",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 1195,
+        "y": 1221,
+        "w": 1036,
+        "h": 35
+      },
+      "lines": 1,
+      "measured": {
+        "width": 799.5,
+        "height": 30.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "mcp-label",
+      "pt": 27,
+      "minimum_pt": 25,
+      "bounds": {
+        "x": 1025,
+        "y": 1480,
+        "w": 606,
+        "h": 40
+      },
+      "lines": 1,
+      "measured": {
+        "width": 180.0,
+        "height": 37.5,
+        "lines": 1
+      }
+    },
+    {
+      "key": "mcp-detail",
+      "pt": 20,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 1025,
+        "y": 1528,
+        "w": 606,
+        "h": 58
+      },
+      "lines": 2,
+      "measured": {
+        "width": 302.25,
+        "height": 55.5,
+        "lines": 2
+      }
+    },
+    {
+      "key": "det-label",
+      "pt": 27,
+      "minimum_pt": 25,
+      "bounds": {
+        "x": 1795,
+        "y": 1480,
+        "w": 606,
+        "h": 40
+      },
+      "lines": 1,
+      "measured": {
+        "width": 284.25,
+        "height": 37.5,
+        "lines": 1
+      }
+    },
+    {
+      "key": "det-detail",
+      "pt": 20,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 1795,
+        "y": 1528,
+        "w": 606,
+        "h": 58
+      },
+      "lines": 2,
+      "measured": {
+        "width": 377.25,
+        "height": 55.5,
+        "lines": 2
+      }
+    },
+    {
+      "key": "architecture-note",
+      "pt": 18,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 958,
+        "y": 1640,
+        "w": 1510,
+        "h": 55
+      },
+      "lines": 2,
+      "measured": {
+        "width": 837.75,
+        "height": 51.0,
+        "lines": 2
+      }
+    },
+    {
+      "key": "flows-heading",
+      "pt": 29,
+      "minimum_pt": 27,
+      "bounds": {
+        "x": 2584,
+        "y": 752,
+        "w": 760,
+        "h": 44
+      },
+      "lines": 1,
+      "measured": {
+        "width": 413.25,
+        "height": 40.5,
+        "lines": 1
+      }
+    },
+    {
+      "key": "flows-intro",
+      "pt": 20,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 2584,
+        "y": 817,
+        "w": 760,
+        "h": 62
+      },
+      "lines": 2,
+      "measured": {
+        "width": 402.0,
+        "height": 55.5,
+        "lines": 2
+      }
+    },
+    {
+      "key": "flow-list",
+      "pt": 23,
+      "minimum_pt": 21,
+      "bounds": {
+        "x": 2584,
+        "y": 915,
+        "w": 760,
+        "h": 265
+      },
+      "lines": 5,
+      "measured": {
+        "width": 352.5,
+        "height": 157.5,
+        "lines": 5
+      }
+    },
+    {
+      "key": "flows-foot",
+      "pt": 21,
+      "minimum_pt": 19,
+      "bounds": {
+        "x": 2584,
+        "y": 1245,
+        "w": 760,
+        "h": 100
+      },
+      "lines": 3,
+      "measured": {
+        "width": 480.75,
+        "height": 87.75,
+        "lines": 3
+      }
+    },
+    {
+      "key": "placeholder-heading",
+      "pt": 28,
+      "minimum_pt": 26,
+      "bounds": {
+        "x": 2584,
+        "y": 1547,
+        "w": 760,
+        "h": 40
+      },
+      "lines": 1,
+      "measured": {
+        "width": 327.0,
+        "height": 38.25,
+        "lines": 1
+      }
+    },
+    {
+      "key": "placeholder-icon",
+      "pt": 108,
+      "minimum_pt": 90,
+      "bounds": {
+        "x": 2584,
+        "y": 1618,
+        "w": 760,
+        "h": 140
+      },
+      "lines": 1,
+      "measured": {
+        "width": 102.0,
+        "height": 126.0,
+        "lines": 1
+      }
+    },
+    {
+      "key": "placeholder-copy",
+      "pt": 22,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 2584,
+        "y": 1788,
+        "w": 760,
+        "h": 69
+      },
+      "lines": 2,
+      "measured": {
+        "width": 470.25,
+        "height": 61.5,
+        "lines": 2
+      }
+    },
+    {
+      "key": "placeholder-detail",
+      "pt": 20,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 2584,
+        "y": 1892,
+        "w": 760,
+        "h": 95
+      },
+      "lines": 3,
+      "measured": {
+        "width": 464.25,
+        "height": 83.25,
+        "lines": 3
+      }
+    },
+    {
+      "key": "workflow-heading",
+      "pt": 29,
+      "minimum_pt": 27,
+      "bounds": {
+        "x": 958,
+        "y": 1796,
+        "w": 1510,
+        "h": 44
+      },
+      "lines": 1,
+      "measured": {
+        "width": 715.5,
+        "height": 40.5,
+        "lines": 1
+      }
+    },
+    {
+      "key": "workflow-question-label",
+      "pt": 20,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 958,
+        "y": 1865,
+        "w": 440,
+        "h": 28
+      },
+      "lines": 1,
+      "measured": {
+        "width": 201.0,
+        "height": 27.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "workflow-question",
+      "pt": 25,
+      "minimum_pt": 23,
+      "bounds": {
+        "x": 958,
+        "y": 1905,
+        "w": 670,
+        "h": 75
+      },
+      "lines": 2,
+      "measured": {
+        "width": 477.75,
+        "height": 69.0,
+        "lines": 2
+      }
+    },
+    {
+      "key": "workflow-answer-label",
+      "pt": 20,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 1710,
+        "y": 1865,
+        "w": 700,
+        "h": 28
+      },
+      "lines": 1,
+      "measured": {
+        "width": 186.75,
+        "height": 27.75,
+        "lines": 1
+      }
+    },
+    {
+      "key": "workflow-answer",
+      "pt": 21,
+      "minimum_pt": 19,
+      "bounds": {
+        "x": 1710,
+        "y": 1905,
+        "w": 720,
+        "h": 112
+      },
+      "lines": 3,
+      "measured": {
+        "width": 658.5,
+        "height": 87.75,
+        "lines": 3
+      }
+    },
+    {
+      "key": "workflow-caution",
+      "pt": 19,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 958,
+        "y": 2070,
+        "w": 1470,
+        "h": 30
+      },
+      "lines": 1,
+      "measured": {
+        "width": 697.5,
+        "height": 27.0,
+        "lines": 1
+      }
+    },
+    {
+      "key": "footer-head",
+      "pt": 23,
+      "minimum_pt": 20,
+      "bounds": {
+        "x": 72,
+        "y": 2295,
+        "w": 3312,
+        "h": 35
+      },
+      "lines": 1,
+      "measured": {
+        "width": 467.25,
+        "height": 31.5,
+        "lines": 1
+      }
+    },
+    {
+      "key": "footer-copy",
+      "pt": 20,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 72,
+        "y": 2342,
+        "w": 2525,
+        "h": 77
+      },
+      "lines": 2,
+      "measured": {
+        "width": 1497.75,
+        "height": 55.5,
+        "lines": 2
+      }
+    },
+    {
+      "key": "footer-refs",
+      "pt": 18,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 72,
+        "y": 2440,
+        "w": 2525,
+        "h": 63
+      },
+      "lines": 2,
+      "measured": {
+        "width": 996.0,
+        "height": 51.0,
+        "lines": 2
+      }
+    },
+    {
+      "key": "footer-build",
+      "pt": 19,
+      "minimum_pt": 18,
+      "bounds": {
+        "x": 2670,
+        "y": 2345,
+        "w": 642,
+        "h": 100
+      },
+      "lines": 2,
+      "measured": {
+        "width": 462.0,
+        "height": 54.0,
+        "lines": 2
+      }
+    }
+  ],
+  "font_minimum_violations": [],
+  "connectors": [
+    {
+      "key": "arrow-r-acp",
+      "start": [
+        1191,
+        1045
+      ],
+      "shaft_end": [
+        1681.4353944373713,
+        1126.7392324062287
+      ],
+      "tip": [
+        1701.1632729140142,
+        1130.0272121523358
+      ],
+      "target": [
+        1713,
+        1132
+      ],
+      "clearance_pt": 12
+    },
+    {
+      "key": "arrow-atlas-acp",
+      "start": [
+        1707,
+        1045
+      ],
+      "shaft_end": [
+        1710.798333068308,
+        1100.0758294904645
+      ],
+      "tip": [
+        1712.1743749006155,
+        1120.0284360589242
+      ],
+      "target": [
+        1713,
+        1132
+      ],
+      "clearance_pt": 12
+    },
+    {
+      "key": "arrow-coding-acp",
+      "start": [
+        2223,
+        1045
+      ],
+      "shaft_end": [
+        1744.54431610957,
+        1126.6189107813086
+      ],
+      "tip": [
+        1724.8291185410887,
+        1129.9820915429907
+      ],
+      "target": [
+        1713,
+        1132
+      ],
+      "clearance_pt": 12
+    },
+    {
+      "key": "arrow-acp-mcp",
+      "start": [
+        1375,
+        1338
+      ],
+      "shaft_end": [
+        1342.6054175545335,
+        1413.5873590394222
+      ],
+      "tip": [
+        1334.72703158295,
+        1431.9702596397833
+      ],
+      "target": [
+        1330,
+        1443
+      ],
+      "clearance_pt": 12
+    },
+    {
+      "key": "arrow-acp-det",
+      "start": [
+        2050,
+        1338
+      ],
+      "shaft_end": [
+        2086.242125427445,
+        1414.108463397634
+      ],
+      "tip": [
+        2094.840797035292,
+        1432.1656737741127
+      ],
+      "target": [
+        2100,
+        1443
+      ],
+      "clearance_pt": 12
+    }
+  ],
+  "unverified_scientific_statements": [
+    "Coding agents using Skills.md are researcher-provided architectural context; their exact Study Agent implementation is not verified in this poster build.",
+    "Specific OHDSI community deterministic package-to-flow bindings are an architectural opportunity, not asserted as implemented here.",
+    "No public approved application screenshot was supplied; the poster includes a labeled placeholder only."
+  ],
+  "intended_overlaps": [
+    "connector geometry may cross its parent architecture panel and participates in no sibling-collision finding"
+  ],
+  "renderer": {
+    "svg": "study-agent-ohdsi-poster.svg",
+    "inkscape_command": "inkscape SVG --export-filename OUTPUT"
+  },
+  "pdf": {
+    "path": "study-agent-ohdsi-poster.pdf",
+    "media_box_expected_pt": [
+      3456,
+      2592
+    ],
+    "renderer_size_px": [
+      4608.0,
+      3456.0
+    ],
+    "expected_size_px": [
+      4608.0,
+      3456.0
+    ],
+    "media_box_found": true
+  }
+}

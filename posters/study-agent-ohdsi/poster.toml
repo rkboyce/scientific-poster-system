@@ -1,0 +1,36 @@
+[poster]
+id = "study-agent-ohdsi"
+title = "OHDSI Study Agent for Human–AI Team-Based Real-World Evidence Generation in the Veterans Health Administration"
+width_in = 48
+height_in = 36
+orientation = "landscape"
+source_status = "hypothetical symposium poster; scientific review required before submission"
+
+[fonts]
+family = "Open Sans"
+fallback = "DejaVu Sans"
+title_pt = 72
+takeaway_pt = 48
+heading_pt = 32
+body_pt = 25
+label_pt = 21
+reference_pt = 18
+minimum_pt = 18
+
+[palette]
+primary = "#17374A"
+accent = "#16796F"
+accent_light = "#DFF2EC"
+surface = "#FFFFFF"
+surface_muted = "#F4F1E9"
+surface_blue = "#EAF1F7"
+text = "#243846"
+muted = "#55727B"
+rule = "#B9D1CF"
+warning = "#8A5A22"
+
+[outputs]
+svg = "study-agent-ohdsi-poster.svg"
+pdf = "study-agent-ohdsi-poster.pdf"
+png = "study-agent-ohdsi-poster.png"
+qa_report = "preflight-report.json"
