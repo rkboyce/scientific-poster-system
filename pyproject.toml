@@ -3,7 +3,7 @@ name = "scientific-poster-starter"
 version = "0.1.0"
 description = "Vector-first scientific poster layout prototype"
 requires-python = ">=3.10"
-dependencies = ["svgwrite==1.4.3", "cairosvg==2.8.2"]
+dependencies = ["svgwrite==1.4.3", "cairosvg==2.8.2", "Pygments>=2.15,<3", "Pillow>=9,<13"]
 
 [project.scripts]
 poster-demo = "posterkit.demo:main"
