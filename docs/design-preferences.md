@@ -1,6 +1,6 @@
 # Scientific Poster Design Preferences
 
-**Version:** 0.1 (draft)  
+**Version:** 0.2 (draft)  
 **Date:** 2026-11-02  
 **Reference designs:** The two final AMIA 2026 posters supplied in the Scientific Poster Sandbox project.
 
@@ -8,7 +8,7 @@
 
 - **Lead with the science.** State one defensible, memorable takeaway; make primary evidence prominent and methods concise but sufficient.
 - **Poster 2.0 is a guide, not a rigid template.** Support large takeaways, clear reading paths and evidence-first composition while adapting to qualitative, quantitative, system-design and usability studies.
-- **Maintain scientific fidelity.** Distinguish exploratory findings from confirmatory evidence, show denominators and uncertainty, preserve quotations, and make key limitations visible.
+- **Maintain scientific fidelity.** Distinguish exploratory findings from confirmatory evidence, show denominators and uncertainty, preserve quotations, and make key limitations visible. If the study is qualitative  results, include representative quotes for each thematic domain and an overview of the sub-themes identified across qualitative data collection instances (interviews, observations, etc.). Quantitative epidemiologic studies will need at least a population overview table and some form of PRISMA-like flow chart showing inclusions/exclusions. Usability/system design studies should show prioritize informative screenshots and design artifacts. These are initial suggestions and each poster will require some focused planning. 
 - **Readability is a constraint.** Do not automatically reduce font size to force content into fixed boxes; edit text or change geometry instead.
 - **Use space deliberately.** Keep related content together, avoid collisions and accidental whitespace, and preserve clean alignment.
 - **Prefer reproducible vector assets.** Use SVG as the primary source, PDF as the print deliverable, and editable scripts for charts and diagrams.
@@ -22,6 +22,8 @@ Their content differs by study:
 - The qualitative interview poster emphasizes three theme cards, verbatim quotations, and coded-subcategory counts.
 - The CBD-CDS system poster emphasizes authentic SMART-on-FHIR screenshots, clinical decision algorithms, and cautious presentation of formative usability measures.
 
+Future poster requirements might change based on venue. Poster formatting guidelines for the venue over-rule this documents defaults. 
+
 **Do not copy visible flaws in the reference PDFs** (crowded author text, awkward wrapping or clipped quotations). They provide design direction, not pixel-perfect specifications.
 
 ## 3. Layout system
@@ -33,10 +35,13 @@ Their content differs by study:
 - Allocate space according to figure complexity and readable type sizes; do not mandate equally sized decision trees or screenshots.
 - Place figure captions close to figures and avoid duplicating captions as body prose.
 - Leave secondary references and branding in the footer without making them illegible.
+- Institutional and organizational logos are often reusable and should be retained in this project for selection and configuration per poster. Important logos to retain for selective reuse are: University of Pittsburgh, University of Texas Southwestern, US Veteran's Administration, the VINCI program in the US Veteran's administration.
+- Nearly every poster will require funding acknowledgement, ensure that it is asked for during development
+- Most posters involve a study with some form of IRB approval needed, often with an exempt ruling. Ensure that it is asked for during development.
 
 ## 4. Typography
 
-Preferred families: **Open Sans** or **Fjalla One** for large headings; **Karla**, **Franklin Gothic FS**, or **Lato** for body copy; **Futura** as an optional alternative. Use installed fonts and record fallbacks. Never distribute proprietary font files. Use LaTeX-derived vector output for mathematical expressions when useful.
+Preferred families: **Open Sans** or **Fjalla One** for large headings; **Karla**, **Franklin Gothic FS**, or **Lato** for body copy; **Futura** as an optional alternative. Use installed fonts and record fallbacks. Never distribute proprietary font files. Use LaTeX-derived vector output for mathematical expressions when useful. Any code listings should be in monospaced font using language-specific font lock/formatting. 
 
 Initial 36 × 48-inch targets (subject to design approval, not measurements taken from the final posters):
 
@@ -62,6 +67,8 @@ Set per-poster minimum text sizes. Measure text with the actual font and rendere
 - Oatmeal: `#ABA588`
 - Sand: `#EADDC5`
 - White or warm off-white paper
+
+Future posters will benefit from reuse of the approved style of University of Texas Southwestern if one can be found. 
 
 Expose semantic tokens such as `primary`, `accent`, `surface`, `surface_muted`, `text`, `text_inverse` and `rule` in TOML/YAML configuration. Maintain sufficient contrast and avoid encoding categorical differences in color alone.
 
