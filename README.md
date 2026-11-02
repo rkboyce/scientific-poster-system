@@ -34,3 +34,31 @@ The code uses installed Pango via ctypes and therefore adds no Python dependency
 - This detects *registered text rectangle* overlaps, not all SVG shape/text overlaps (intentional background overlaps are excluded).
 - Manual explicit line breaks remain necessary for deterministic layout; Pango-based line breaking and bidi rendering would be later improvements.
 - Supports Unix/Linux system Pango library names only.
+
+
+## Component-aware composition experiment
+
+The branch also provides `src/posterkit/composition.py`, a first step toward
+content-driven poster layout. It uses the existing Pango measurement layer and
+adds:
+
+- `ComponentRegistry`: registers panels, text, and figures by bounding box,
+  validates parent containment, and rejects unintended sibling collisions.
+- `TextSpec`: reports preferred height for a specified width, font size, and
+  minimum size; it never silently reduces the requested type size.
+- `FixedSpec`: supports figures/screenshots with a specified height and minimum.
+- `VerticalStack`: positions components vertically using their measured
+  preferred heights and rejects overflow.
+
+Run the new and original tests:
+
+```bash
+uv run --with pytest pytest -q tests/test_layout.py tests/test_composition.py
+```
+
+A component must explicitly register its geometry for collision checking; this
+is **not** arbitrary SVG path intersection testing. Decorative backgrounds
+should be registered as parents of their child content. `VerticalStack`
+calculates bounds but does not yet produce a completed poster by itself.
+Pango measurements can differ slightly from Inkscape rendering, so PDF and SVG
+visual inspection remains necessary.
